@@ -1,0 +1,65 @@
+# ==========================================
+# ESP-IDF generated build files
+# ==========================================
+
+build/
+managed_components/
+
+# ==========================================
+# Local ESP-IDF configuration
+# May contain Wi-Fi passwords and other secrets
+# ==========================================
+
+sdkconfig
+sdkconfig.old
+sdkconfig.*
+!sdkconfig.defaults
+
+# ==========================================
+# Local credentials and environment files
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+secrets/
+credentials/
+*.pem
+*.key
+
+# ==========================================
+# Compiled firmware and temporary files
+# ==========================================
+
+*.elf
+*.bin
+*.map
+*.o
+*.obj
+
+# ==========================================
+# Python cache (ESP-IDF tools)
+# ==========================================
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ==========================================
+# IDE settings
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# Operating system and temporary files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
